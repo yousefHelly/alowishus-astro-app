@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn-main {
+    @apply hover:bg-transparent hover:text-stone-800 transition duration-150 rounded-full bg-stone-800 px-3 py-2 text-stone-100 font-semibold
+}
+.btn-secondary {
+    @apply hover:bg-transparent hover:bg-stone-800 hover:text-stone-100 transition duration-150 rounded-full text-stone-800 px-3 py-2 font-semibold
+}
+.awesome-text {
+    font-family: 'Kaushan Script', cursive;
+}
+.desc{
+    @apply text-stone-500 font-semibold leading-[1.5rem]
+}

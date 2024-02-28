@@ -1,0 +1,13 @@
+---
+type Props = {
+    header: string,
+    description: string
+}
+const {header, description} = Astro.props
+---
+<div class="mx-auto flex flex-col gap-8 justify-center items-center">
+    <h3 class="text-4xl font-bold awesome-text relative after:absolute after:-bottom-5 after:left-1/2 after:-translate-x-1/2 after:w-32 after:h-[3px] after:rounded-full after:bg-stone-800">{header}</h3>
+    <p class="desc text-center w-2/5">
+        {description}
+    </p>
+</div>
